@@ -1,3 +1,3 @@
 document.getElementById("btn").addEventListener("click", function() {
-  alert("Task completed successfully! 🎉");
+  alert("Hello! You clicked the button 🎉");
 });
