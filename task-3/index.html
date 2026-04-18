@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3 - Advanced Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>Smart Dashboard 🚀</h2>
+</header>
+
+<!-- QUIZ -->
+<section class="card">
+  <h2>Quiz 🎯</h2>
+
+  <p id="question">Loading...</p>
+
+  <div id="options"></div>
+
+  <p id="result"></p>
+
+  <button onclick="nextQuestion()">Next Question</button>
+</section>
+
+<!-- API -->
+<section class="card">
+  <h2>Random Joke 😂</h2>
+  <button onclick="getJoke()">Get Joke</button>
+  <p id="joke">Click button</p>
+</section>
+
+<!-- IMAGE CAROUSEL -->
+<section class="card">
+  <h2>Image Carousel 🖼️</h2>
+
+  <img id="slider" src="https://picsum.photos/300/200" width="300">
+
+  <br>
+  <button onclick="nextImage()">Next Image</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

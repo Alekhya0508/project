@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>✨ Alekhya</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#todo">Tasks</a>
+    <a href="#api">Live</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Hi, I'm Alekhya 👋</h1>
+  <p>Frontend Developer | Building Modern Web Apps</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card">
+  <h2>🚀 My Projects</h2>
+
+  <div class="grid">
+    <div class="box">
+      <h3>Resume Builder</h3>
+      <p>Create and download professional resumes</p>
+    </div>
+
+    <div class="box">
+      <h3>Login Page</h3>
+      <p>Authentication UI with validation</p>
+    </div>
+  </div>
+</section>
+
+<!-- TODO -->
+<section id="todo" class="card">
+  <h2>📝 Task Manager</h2>
+
+  <div class="todo-box">
+    <input type="text" id="taskInput" placeholder="Enter task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="list"></ul>
+</section>
+
+<!-- API -->
+<section id="api" class="card">
+  <h2>😂 Random Joke</h2>
+  <button onclick="getJoke()">Get Joke</button>
+  <p id="joke"></p>
+</section>
+
+<!-- IMAGE -->
+<section class="card">
+  <h2>🌄 Gallery Slider</h2>
+
+  <img id="slider" src="https://picsum.photos/500/300?1">
+
+  <br>
+  <button onclick="prevImage()">Prev</button>
+  <button onclick="nextImage()">Next</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
